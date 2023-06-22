@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Josefin+Sans:wght@300&family=Montserrat&family=Open+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&family=Tilt+Prism&display=swap");
+
+:root {
+  --text-color: #243e36;
+  --text-color-hover: #b06c23;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header-slogan {
+  margin-top: 8rem;
+  font-size: 7vw;
+  text-align: end;
+}
+
+footer {
+  box-shadow: 0px -5px 8px rgba(0, 0, 0, 25%);
+}
+
+.footer-col {
+  padding: 1rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-col ul li a {
+  font-size: 1rem;
+  text-decoration: none;
+}
