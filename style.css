@@ -18,10 +18,32 @@ body {
   background-size: cover;
 }
 
+header {
+  background-image: url(images/slogan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+@media all and (max-width: 700px) {
+  header {
+    min-height: 60vh;
+  }
+}
+
+@media all and (max-width: 500px) {
+  header {
+    min-height: 30vh;
+  }
+}
+
 .header-slogan {
-  margin-top: 8rem;
+  margin-top: 15rem;
   font-size: 7vw;
-  text-align: end;
+  text-align: center;
+}
+.slogan {
+  display: flex;
+  text-shadow: 2px 2px 5px black;
 }
 
 footer {
