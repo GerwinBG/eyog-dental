@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background-image: url(slogan.jpg);
+  background-image: url(../Assets/Home-img/slogan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
