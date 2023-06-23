@@ -54,7 +54,7 @@ header {
 }
 
 .nav-item a {
-  margin-left: 4rem;
+  margin: 0 4rem;
   color: var(--text-color);
   transition: all 0.1s ease-in;
 }
