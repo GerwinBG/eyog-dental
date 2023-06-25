@@ -32,20 +32,10 @@ header {
 }
 
 @media all and (max-width: 700px) {
-  header {
-    height: 95vh;
-    outline: 1px solid black;
-  }
   .header-slogan {
     margin-top: 9rem;
     font-size: 15vw;
     text-align: end;
-  }
-}
-
-@media all and (max-width: 500px) {
-  header {
-    min-height: 30vh;
   }
 }
 
